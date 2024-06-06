@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  cursor: none;
+}
+*::hover {
+  cursor: none !important;
+}
+
+button {
+  cursor: none;
+}
+
+.big {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  animation-name: stretch;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  position: absolute;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+@keyframes stretch {
+  0% {
+    opacity: 0.2;
+    background-color: green;
+    border-radius: 100%;
+  }
+
+  50% {
+    background-color: orange;
+  }
+
+  100% {
+    background-color: red;
+  }
+}
