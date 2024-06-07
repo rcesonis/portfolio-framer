@@ -49,7 +49,7 @@ const Hero = ({ darkMode }) => {
           </button>
         </a>
         <a
-          href={process.env.PUBLIC_URL + '/assets/Rimvydas_Cesonis_Resume.pdf'}
+          href={process.env.PUBLIC_URL + '/Rimvydas_Cesonis_Resume.pdf'}
           download
           className='mx-3'
         >
