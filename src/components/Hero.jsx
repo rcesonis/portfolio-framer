@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/Rimvydas_Cesonis_Resume.pdf';
+import resume from '../../public/Rimvydas_Cesonis_Resume.pdf';
 
 const Hero = ({ darkMode }) => {
   return (
