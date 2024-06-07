@@ -48,11 +48,7 @@ const Hero = ({ darkMode }) => {
             </div>
           </button>
         </a>
-        <a
-          href={process.env.PUBLIC_URL + '/Rimvydas_Cesonis_Resume.pdf'}
-          download
-          className='mx-3'
-        >
+        <a href={'/Rimvydas_Cesonis_Resume.pdf'} download className='mx-3'>
           <button className='h-16 group hover:bg-sunriseYellow dark:bg-sunriseYellow hover:dark:bg-deepBlue shadow border-sunriseYellow border-double border-4 dark:text-deepBlue hover:dark:text-sunriseYellow mt-12 font-semibold px-6 py-3 rounded-lg'>
             <div className='flex items-center justify-center space-x-4'>
               <span>Download Resume</span>
