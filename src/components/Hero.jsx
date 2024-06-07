@@ -49,7 +49,7 @@ const Hero = ({ darkMode }) => {
           </button>
         </a>
         <a
-          href='./assets/Rimvydas_Cesonis_Resume.pdf'
+          href='src/assets/Rimvydas_Cesonis_Resume.pdf'
           download
           className='mx-3'
         >
